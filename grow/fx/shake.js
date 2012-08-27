@@ -27,6 +27,7 @@ goog.require('goog.fx.easing');
  * @param {number=} opt_distance The max distance to shake the element.
  * @param {number=} opt_time The time for the shaking to last.
  * @constructor
+ * @extends {goog.fx.AnimationSerialQueue}
  */
 grow.fx.Shake = function(element, opt_shakes, opt_distance, opt_time) {
   goog.base(this);
