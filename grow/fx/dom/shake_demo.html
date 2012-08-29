@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>grow.fx.Shake demo</title>
+    <title>grow.fx.dom.Shake demo</title>
     <style>
     #shake {
       background: red;
@@ -15,14 +15,14 @@
   <body>
   <button onclick="shake.play();">Shake!</button>
   <div id="shake"></div>
-  <script src="../../goog/base.js"></script>
-  <script src="../../goog/deps.js"></script>
-  <script src="../deps.js"></script>
+  <script src="../../../goog/base.js"></script>
+  <script src="../../../goog/deps.js"></script>
+  <script src="../../deps.js"></script>
   <script>
-    goog.require('grow.fx.Shake');
+    goog.require('grow.fx.dom.Shake');
   </script>
   <script>
-    var shake = new grow.fx.Shake(document.getElementById('shake'));
+    var shake = new grow.fx.dom.Shake(document.getElementById('shake'));
   </script>
   </body>
 </html>
