@@ -67,7 +67,8 @@ grow.fx.dom.Shake.TIME_ = 350;
 /**
  * Create the acceleration function.
  * @param {number} shakes The number of times to shake the element.
- * @return {function(number): number} Output between 0 and 1.
+ * @return {function(number): number} Inputs number between 0 and 1 and outputs
+ *     a number between 0 and 1.
  * @private
  */
 grow.fx.dom.Shake.prototype.createAccelerationFunction_ = function(shakes) {
